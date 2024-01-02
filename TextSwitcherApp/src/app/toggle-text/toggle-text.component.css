@@ -1,0 +1,22 @@
+div
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+button 
+{
+    color: white;
+    background-color: rgb(3, 151, 209);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: rgb(3, 143, 198);
+}

@@ -1,0 +1,22 @@
+
+div
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1
+{
+    margin-bottom: 20px;
+}
+
+button
+{
+    background-color: rgb(84, 254, 84);
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
