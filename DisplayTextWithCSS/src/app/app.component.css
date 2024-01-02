@@ -1,0 +1,17 @@
+h1 
+{
+    color: blue;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: blue;
+  }
+  
+  input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
