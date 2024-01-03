@@ -1,0 +1,19 @@
+.parent-container 
+{
+    text-align: center;
+    margin-top: 10px;
+}
+  
+.received-data 
+{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+  
+.child-container 
+{
+    margin-top: 10px;
+    padding: 10px;
+}
+  

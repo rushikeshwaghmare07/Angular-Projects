@@ -1,0 +1,7 @@
+<div class="app-container">
+  <label for="inputText">Enter text: </label>
+  <input id="inputText" [(ngModel)]="inputValue" type="text" (input)="updateLength()">
+  <h2>Length of entered text: {{ inputLength }}</h2>
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,7 @@
+<div class="child-container">
+    <h2>Inside child component</h2>
+    
+    <input #userInputRef type="text" placeholder="Enter text...">
+    
+    <button (click)="sendDataToParent(userInputRef.value)" >Send to Parent</button>
+</div>

@@ -1,0 +1,8 @@
+<div style="text-align: center;">
+  <h1>Checking text Length without using ngModel</h1>
+  <label for="inputText">Enter Text:</label>
+  <input type="text" id="inputText" (input)="onInputChange($event)">
+  <h2>Length of entered text: {{ inputLength }}</h2>
+</div>
+
+<router-outlet></router-outlet>

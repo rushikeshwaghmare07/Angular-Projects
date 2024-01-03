@@ -1,0 +1,9 @@
+<div style="text-align: center;">
+
+  <button (click)="sendResponseToChild()">Send to Child</button>
+  <h1>Data received from Parent and Child component: {{ receivedData }}</h1>
+  <app-child (messageToParent)="receiveDataFromChild($event)"></app-child>
+
+</div>
+
+<router-outlet></router-outlet>

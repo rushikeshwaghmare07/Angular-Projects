@@ -1,0 +1,7 @@
+<div class="parent-container">
+    
+    <app-child class="child-container" (dataEntered)="receivedDataFromChild($event)" ></app-child>
+    
+    <p class="received-data">Data received from child component: {{receivedData}} </p>
+</div>
+<router-outlet></router-outlet>
