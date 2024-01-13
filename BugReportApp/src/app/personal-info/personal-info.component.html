@@ -1,0 +1,74 @@
+<!-- personal-info.component.html -->
+<div class="container">
+  <form class="form">
+    <div class="row py-2">
+      <span>Your name <span class="required">*</span></span>
+    </div>
+    <div class="row py-2">
+      <div class="col-md-6">
+        <div class="form-group">
+          <input type="text" class="form-control" name="firstName" id="firstName">
+          <small class="form-text text-muted">First name</small>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <input type="text" class="form-control" name="lastName" id="lastName">
+          <small class="form-text text-muted ">
+            Last name
+          </small>
+        </div>
+      </div>
+      <div class="row py-2">
+        <span class="email mt-3">Email <span class="required">*</span></span>
+      </div>
+        <div class="row py-2">
+          <div class="col-md-12">
+            <div class="form-group">
+              <input type="email" class="form-control" name="email">
+            </div>
+          </div>
+        </div>
+        <div class="row py-2">
+          <span class="email mt-2">Date and time you first noticed this bug <span class="required">*</span></span>
+      </div>
+      <div class="row py-2">
+          <div class="col-md-5">
+          <div class="form-group">
+              <input type="date" class="form-control">
+          </div>
+          </div>
+      </div>
+      <div class="row py-2">
+        <div class="col-md-5">
+          <div class="form-group">
+            <input type="time" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="row py-2">
+        <span class="email mt-3">Impact</span>
+      </div>
+      <div class="row py-2">
+          <div class="col-md">
+            <select class="form-control" [ngModel]= "impact">
+              <option value="">Low</option>
+              <option value="">Medium</option>
+              <option value="">High</option>
+            </select>
+          </div>
+      </div>
+      <div class="row py-2">
+          <span class="email mt-3">Detailed explanation of bug <span class="required">*</span></span>
+      </div>
+      <div class="row py-2">
+          <div class="col-md">
+          <div class="form-group">
+              <textarea name="" id="" class="form-control"  rows="4" placeholder="Enter bug details"></textarea>
+          </div>
+          </div>
+      </div>
+      <div class="form-group">
+      </div>   
+</div>
+  
